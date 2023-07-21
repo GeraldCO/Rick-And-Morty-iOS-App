@@ -3,8 +3,8 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,29 +16,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="z1R-bE-blU">
-                                <rect key="frame" x="69" y="209" width="255.66666666666663" height="255.66666666666669"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImage" translatesAutoresizingMaskIntoConstraints="NO" id="z1R-bE-blU">
+                                <rect key="frame" x="46.666666666666657" y="288.66666666666669" width="300" height="300.00000000000006"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="z1R-bE-blU" secondAttribute="height" multiplier="1:1" id="Jvj-RL-9zt"/>
+                                    <constraint firstAttribute="height" constant="300" id="g4P-DN-GqS"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        <color key="backgroundColor" name="R&amp;MPaletteYellow"/>
                         <constraints>
-                            <constraint firstItem="z1R-bE-blU" firstAttribute="width" secondItem="z1R-bE-blU" secondAttribute="height" multiplier="1:1" id="axp-FV-khP"/>
+                            <constraint firstItem="z1R-bE-blU" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="Iv1-cc-AW9"/>
+                            <constraint firstItem="z1R-bE-blU" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aor-Ux-1eZ"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="148.85496183206106" y="88.732394366197184"/>
         </scene>
     </scenes>
     <resources>
-        <image name="image" width="128" height="128"/>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
+        <image name="launchImage" width="2500" height="1500"/>
+        <namedColor name="R&amp;MPaletteYellow">
+            <color red="0.98000001907348633" green="0.99400001764297485" blue="0.48500001430511475" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>
