@@ -20,6 +20,21 @@
 		748F8A732A6A2A4E007AD19E /* RickAndMortyRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F8A722A6A2A4E007AD19E /* RickAndMortyRepository.swift */; };
 		748F8A752A6A2A79007AD19E /* RepositoryRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F8A742A6A2A79007AD19E /* RepositoryRepresentable.swift */; };
 		748F8A782A6A2B15007AD19E /* CharacterUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F8A772A6A2B15007AD19E /* CharacterUseCases.swift */; };
+		748F8A7D2A6A2DFF007AD19E /* CharacterListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F8A7C2A6A2DFF007AD19E /* CharacterListCoordinator.swift */; };
+		748F8A852A6A2E8F007AD19E /* CharacterListContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F8A832A6A2E8F007AD19E /* CharacterListContainerViewController.swift */; };
+		748F8A862A6A2E8F007AD19E /* CharacterListContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 748F8A842A6A2E8F007AD19E /* CharacterListContainerViewController.xib */; };
+		748F8A882A6A302B007AD19E /* CharacterListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F8A872A6A302B007AD19E /* CharacterListCollectionViewController.swift */; };
+		748F8A8B2A6A3068007AD19E /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 748F8A8A2A6A3068007AD19E /* Nuke */; };
+		748F8A8E2A6A3083007AD19E /* IHProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 748F8A8D2A6A3083007AD19E /* IHProgressHUD */; };
+		748F8A912A6A30C8007AD19E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F8A902A6A30C8007AD19E /* Constants.swift */; };
+		748F8A942A6A312C007AD19E /* View+Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F8A932A6A312C007AD19E /* View+Border.swift */; };
+		748F8A962A6A315C007AD19E /* ViewController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F8A952A6A315C007AD19E /* ViewController+Helper.swift */; };
+		748F8A9A2A6A31AC007AD19E /* CharacterItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F8A982A6A31AC007AD19E /* CharacterItemCell.swift */; };
+		748F8A9B2A6A31AC007AD19E /* CharacterItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 748F8A992A6A31AC007AD19E /* CharacterItemCell.xib */; };
+		748F8A9D2A6A363A007AD19E /* CharacterListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F8A9C2A6A363A007AD19E /* CharacterListViewModel.swift */; };
+		748F8A9F2A6A365D007AD19E /* CharacterDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F8A9E2A6A365D007AD19E /* CharacterDetailViewModel.swift */; };
+		748F8AA22A6A369B007AD19E /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748F8AA02A6A369B007AD19E /* CharacterDetailViewController.swift */; };
+		748F8AA32A6A369B007AD19E /* CharacterDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 748F8AA12A6A369B007AD19E /* CharacterDetailViewController.xib */; };
 		74A86F2A2A68CEA600351156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A86F292A68CEA600351156 /* AppDelegate.swift */; };
 		74A86F332A68CEA700351156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A86F322A68CEA700351156 /* Assets.xcassets */; };
 		74A86F362A68CEA700351156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A86F342A68CEA700351156 /* LaunchScreen.storyboard */; };
@@ -39,6 +54,19 @@
 		748F8A722A6A2A4E007AD19E /* RickAndMortyRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyRepository.swift; sourceTree = "<group>"; };
 		748F8A742A6A2A79007AD19E /* RepositoryRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryRepresentable.swift; sourceTree = "<group>"; };
 		748F8A772A6A2B15007AD19E /* CharacterUseCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterUseCases.swift; sourceTree = "<group>"; };
+		748F8A7C2A6A2DFF007AD19E /* CharacterListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListCoordinator.swift; sourceTree = "<group>"; };
+		748F8A832A6A2E8F007AD19E /* CharacterListContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListContainerViewController.swift; sourceTree = "<group>"; };
+		748F8A842A6A2E8F007AD19E /* CharacterListContainerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterListContainerViewController.xib; sourceTree = "<group>"; };
+		748F8A872A6A302B007AD19E /* CharacterListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListCollectionViewController.swift; sourceTree = "<group>"; };
+		748F8A902A6A30C8007AD19E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		748F8A932A6A312C007AD19E /* View+Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Border.swift"; sourceTree = "<group>"; };
+		748F8A952A6A315C007AD19E /* ViewController+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Helper.swift"; sourceTree = "<group>"; };
+		748F8A982A6A31AC007AD19E /* CharacterItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterItemCell.swift; sourceTree = "<group>"; };
+		748F8A992A6A31AC007AD19E /* CharacterItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterItemCell.xib; sourceTree = "<group>"; };
+		748F8A9C2A6A363A007AD19E /* CharacterListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewModel.swift; sourceTree = "<group>"; };
+		748F8A9E2A6A365D007AD19E /* CharacterDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewModel.swift; sourceTree = "<group>"; };
+		748F8AA02A6A369B007AD19E /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
+		748F8AA12A6A369B007AD19E /* CharacterDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterDetailViewController.xib; sourceTree = "<group>"; };
 		74A86F262A68CEA600351156 /* Rick-and-Morty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick-and-Morty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74A86F292A68CEA600351156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74A86F322A68CEA700351156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748F8A8E2A6A3083007AD19E /* IHProgressHUD in Frameworks */,
+				748F8A8B2A6A3068007AD19E /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +98,8 @@
 		748F8A542A6A23F5007AD19E /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				748F8A922A6A30F6007AD19E /* Helpers */,
+				748F8A8F2A6A30B4007AD19E /* Common */,
 				748F8A762A6A2ABE007AD19E /* UseCases */,
 				748F8A712A6A2A00007AD19E /* Repository */,
 				748F8A6E2A6A2818007AD19E /* Protocols */,
@@ -80,6 +112,8 @@
 		748F8A552A6A23FD007AD19E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				748F8A7A2A6A2D8E007AD19E /* CharacterListScreen */,
+				748F8A7B2A6A2D9B007AD19E /* CharacterDetailScreen */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -163,6 +197,72 @@
 			path = UseCases;
 			sourceTree = "<group>";
 		};
+		748F8A792A6A2C34007AD19E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74A86F322A68CEA700351156 /* Assets.xcassets */,
+				74A86F342A68CEA700351156 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		748F8A7A2A6A2D8E007AD19E /* CharacterListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				748F8A822A6A2E5B007AD19E /* CollectionView */,
+				748F8A7C2A6A2DFF007AD19E /* CharacterListCoordinator.swift */,
+				748F8A832A6A2E8F007AD19E /* CharacterListContainerViewController.swift */,
+				748F8A842A6A2E8F007AD19E /* CharacterListContainerViewController.xib */,
+				748F8A9C2A6A363A007AD19E /* CharacterListViewModel.swift */,
+			);
+			path = CharacterListScreen;
+			sourceTree = "<group>";
+		};
+		748F8A7B2A6A2D9B007AD19E /* CharacterDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				748F8A9E2A6A365D007AD19E /* CharacterDetailViewModel.swift */,
+				748F8AA02A6A369B007AD19E /* CharacterDetailViewController.swift */,
+				748F8AA12A6A369B007AD19E /* CharacterDetailViewController.xib */,
+			);
+			path = CharacterDetailScreen;
+			sourceTree = "<group>";
+		};
+		748F8A822A6A2E5B007AD19E /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				748F8A972A6A3170007AD19E /* Cells */,
+				748F8A872A6A302B007AD19E /* CharacterListCollectionViewController.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		748F8A8F2A6A30B4007AD19E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				748F8A902A6A30C8007AD19E /* Constants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		748F8A922A6A30F6007AD19E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				748F8A932A6A312C007AD19E /* View+Border.swift */,
+				748F8A952A6A315C007AD19E /* ViewController+Helper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		748F8A972A6A3170007AD19E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				748F8A982A6A31AC007AD19E /* CharacterItemCell.swift */,
+				748F8A992A6A31AC007AD19E /* CharacterItemCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		74A86F1D2A68CEA600351156 = {
 			isa = PBXGroup;
 			children = (
@@ -182,12 +282,11 @@
 		74A86F282A68CEA600351156 /* Rick-and-Morty */ = {
 			isa = PBXGroup;
 			children = (
+				748F8A792A6A2C34007AD19E /* Resources */,
 				748F8A532A6A23E9007AD19E /* Data */,
 				748F8A542A6A23F5007AD19E /* Domain */,
 				748F8A552A6A23FD007AD19E /* Views */,
 				74A86F292A68CEA600351156 /* AppDelegate.swift */,
-				74A86F322A68CEA700351156 /* Assets.xcassets */,
-				74A86F342A68CEA700351156 /* LaunchScreen.storyboard */,
 				74A86F372A68CEA700351156 /* Info.plist */,
 			);
 			path = "Rick-and-Morty";
@@ -209,6 +308,10 @@
 			dependencies = (
 			);
 			name = "Rick-and-Morty";
+			packageProductDependencies = (
+				748F8A8A2A6A3068007AD19E /* Nuke */,
+				748F8A8D2A6A3083007AD19E /* IHProgressHUD */,
+			);
 			productName = "Rick-and-Morty";
 			productReference = 74A86F262A68CEA600351156 /* Rick-and-Morty.app */;
 			productType = "com.apple.product-type.application";
@@ -237,6 +340,10 @@
 				Base,
 			);
 			mainGroup = 74A86F1D2A68CEA600351156;
+			packageReferences = (
+				748F8A892A6A3068007AD19E /* XCRemoteSwiftPackageReference "Nuke" */,
+				748F8A8C2A6A3083007AD19E /* XCRemoteSwiftPackageReference "IHProgressHUD" */,
+			);
 			productRefGroup = 74A86F272A68CEA600351156 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,6 +359,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				74A86F362A68CEA700351156 /* LaunchScreen.storyboard in Resources */,
+				748F8A862A6A2E8F007AD19E /* CharacterListContainerViewController.xib in Resources */,
+				748F8A9B2A6A31AC007AD19E /* CharacterItemCell.xib in Resources */,
+				748F8AA32A6A369B007AD19E /* CharacterDetailViewController.xib in Resources */,
 				74A86F332A68CEA700351156 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,20 +373,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				748F8A852A6A2E8F007AD19E /* CharacterListContainerViewController.swift in Sources */,
 				748F8A5F2A6A24FA007AD19E /* LocationDTO.swift in Sources */,
 				748F8A5C2A6A24C5007AD19E /* CharacterDTO.swift in Sources */,
 				748F8A6D2A6A27E8007AD19E /* Location.swift in Sources */,
+				748F8A9A2A6A31AC007AD19E /* CharacterItemCell.swift in Sources */,
+				748F8A962A6A315C007AD19E /* ViewController+Helper.swift in Sources */,
+				748F8A7D2A6A2DFF007AD19E /* CharacterListCoordinator.swift in Sources */,
 				748F8A662A6A271A007AD19E /* Failure.swift in Sources */,
+				748F8A9F2A6A365D007AD19E /* CharacterDetailViewModel.swift in Sources */,
 				748F8A592A6A243B007AD19E /* APIManager.swift in Sources */,
 				748F8A632A6A25E3007AD19E /* APIRepresentable.swift in Sources */,
 				748F8A702A6A282B007AD19E /* Coordinator.swift in Sources */,
 				748F8A612A6A256E007AD19E /* MockAPIManager.swift in Sources */,
+				748F8AA22A6A369B007AD19E /* CharacterDetailViewController.swift in Sources */,
+				748F8A9D2A6A363A007AD19E /* CharacterListViewModel.swift in Sources */,
+				748F8A942A6A312C007AD19E /* View+Border.swift in Sources */,
 				74A86F2A2A68CEA600351156 /* AppDelegate.swift in Sources */,
 				748F8A782A6A2B15007AD19E /* CharacterUseCases.swift in Sources */,
 				748F8A6B2A6A27B7007AD19E /* CharacterResponse.swift in Sources */,
 				748F8A732A6A2A4E007AD19E /* RickAndMortyRepository.swift in Sources */,
 				748F8A752A6A2A79007AD19E /* RepositoryRepresentable.swift in Sources */,
+				748F8A882A6A302B007AD19E /* CharacterListCollectionViewController.swift in Sources */,
 				748F8A692A6A2761007AD19E /* Character.swift in Sources */,
+				748F8A912A6A30C8007AD19E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +602,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		748F8A892A6A3068007AD19E /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 9.6.0;
+			};
+		};
+		748F8A8C2A6A3083007AD19E /* XCRemoteSwiftPackageReference "IHProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swiftify-Corp/IHProgressHUD";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.1.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		748F8A8A2A6A3068007AD19E /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 748F8A892A6A3068007AD19E /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		748F8A8D2A6A3083007AD19E /* IHProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 748F8A8C2A6A3083007AD19E /* XCRemoteSwiftPackageReference "IHProgressHUD" */;
+			productName = IHProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 74A86F1E2A68CEA600351156 /* Project object */;
 }
